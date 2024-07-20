@@ -312,7 +312,7 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    #AA0601,//$primary,
   "secondary":  #650300,//$secondary,
-  "third":  #FBF2F2,//$secondary,
+  "third":      #FBF2F2,//$secondary,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -443,7 +443,7 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-text-align:           null !default;
-$body-color:                $gray-900 !default;
+$body-color:                #000000;//$gray-900 !default;
 $body-bg:                   $white !default;
 
 $body-secondary-color:      rgba($body-color, .75) !default;
@@ -544,7 +544,12 @@ $border-widths: (
   2: 2px,
   3: 3px,
   4: 4px,
-  5: 5px
+  5: 5px,
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10: 10px,
 ) !default;
 $border-style:                solid !default;
 $border-color:                $gray-300 !default;
@@ -648,6 +653,7 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
+  0: 3rem, //48px
   1: $h1-font-size, //40px
   2: $h2-font-size, //32px
   3: $h3-font-size, //28px
